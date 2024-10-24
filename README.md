@@ -1,17 +1,16 @@
 # cli-trading-app-cpp
  It is a real-time command line tradding application made in C++ using the jsoncpp and curl libraries
 
-### Try it on your own computer (i use macos so some configs might be different)
+# Try it on your own computer (i use macos so some configs might be different)
 
 # Necessary dependices
 * Jsoncpp
 * Curl
 
 # Compiler Used
-*g++ 
-You can probably user another compiler but I haven't tried.
+* g++ You can probably user another compiler but I haven't tried.
 
-## Steps
+# Steps
 1. git clone https://github.com/Judah-fuego/cli-trading-app-cpp.git
 2. brew install jsoncpp and brew install curl
 3. Create free account on Finnhub to get API key and plug into the client contrsuctor in the main function
