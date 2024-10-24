@@ -1,0 +1,20 @@
+{
+  "configurations": [
+    {
+      "name": "macos-clang-arm64",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "/opt/homebrew/Cellar/jsoncpp/1.9.6/include/",   // Path to JsonCpp headers
+        "/opt/homebrew/Cellar/curl/8.10.1/include/"      // Path to curl headers (update version as needed)
+      ],
+      "compilerPath": "/usr/bin/clang",
+      "cStandard": "c11",         // Specify C standard if needed
+      "cppStandard": "c++17",     // Use C++17 or whichever version you prefer
+      "intelliSenseMode": "macos-clang-arm64",
+      "compilerArgs": [
+        ""
+      ]
+    }
+  ],
+  "version": 4
+}
